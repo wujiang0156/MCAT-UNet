@@ -4,9 +4,9 @@
 which mainly focuses on developing advanced remote sensing image segmentation.
  
 ## Install
--First, you need to download mmsegmentation and install it on your server.
--Second, place backbone.py and csheadunet.py in the corresponding directory of mmsegmentation.
--Third, train according to the training strategy of mmsegmentation and the training parameters in our paper.
+- First, you need to download mmsegmentation and install it on your server.
+- Second, place backbone.py and csheadunet.py in the corresponding directory of mmsegmentation.
+- Third, train according to the training strategy of mmsegmentation and the training parameters in our paper.
 
 ## Pretrained Weights of Backbones
 
