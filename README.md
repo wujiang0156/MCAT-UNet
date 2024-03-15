@@ -24,7 +24,7 @@ Download the datasets from the official website and split them yourself.
 
 ## Training
 
-"-c" means the path of the config, use different **mmsegmentation document** (https://mmsegmentation.readthedocs.io/en/latest/index.html).
+You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs.io/en/latest/index.html).
 
 ## Inference on huge remote sensing image
 
