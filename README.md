@@ -3,8 +3,10 @@
 **MCAT-UNet** is an open-source semantic segmentation model based on mmsegmetation, 
 which mainly focuses on developing advanced remote sensing image segmentation.
 
-The proposed MCAT-UNet can extract local representations and capture long-range spatial dependencies 
-to segment geographic objects more efficiently in complex scenarios with low computational complexity.
+The proposed MCAT-UNet can extract local representations and capture long-range spatial dependencies to segment 
+geographic objects more efficiently in complex scenarios with low computational complexity. In particular,
+MCAT-UNet achieves more complete predictions for large-scale varied objects and small discrete multiscale objects, 
+where the boundaries remain accurate and smooth. 
  
 ## Install
 - First, you need to download mmsegmentation and install it on your server.
