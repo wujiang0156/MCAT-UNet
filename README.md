@@ -38,9 +38,9 @@ You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs
 
 | Dataset | Crop Size | Lr Schd | mIoU | #params(Mb) | FLOPs(Gbps) | config | log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Potsdam | 512x512 | 100K | 75.44 | 23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb8-adamw-100k_potsdam-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231219_003217.log)
-| Vaihingen | 512x512 | 100K | 74.52 |  23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb8-adamw-100k_vaihingen-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20240106_074357.log)
-| LoveDa | 512x512 | 100K | 53.58 |  23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb8-adamw-100k_loveda-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231226_030251.log)
+| Potsdam | 512x512 | 100K | 75.44 | 23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb4-adamw-100k_potsdam-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231219_003217.log)
+| Vaihingen | 512x512 | 100K | 74.52 |  23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb4-adamw-100k_vaihingen-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20240106_074357.log)
+| LoveDa | 512x512 | 100K | 53.58 |  23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb4-adamw-100k_loveda-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231226_030251.log)
 
 
 ## Inference on huge remote sensing image
