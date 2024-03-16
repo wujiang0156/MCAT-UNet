@@ -32,7 +32,7 @@ Download the datasets from the official website and split them yourself.
 You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs.io/en/latest/index.html).
 
 
-## Results and Configs for MACT-UNet
+## Results and Logs for MACT-UNet
 
 ### LoveDA/Potsdam/Vaihingen
 
