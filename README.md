@@ -31,6 +31,18 @@ Download the datasets from the official website and split them yourself.
 
 You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs.io/en/latest/index.html).
 
+
+## Results and Models
+
+### LoveDA/Potsdam/Vaihingen
+
+| Method | Crop Size | Lr Schd | mIoU | #params(Mb) | FLOPs(Gbps) | config | log |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| MACT-UNet | 512x512 | 100K | 75.44 | 23.2 | 18.5 | [config](configs/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231219_003217.log)
+| MACT-UNet | 512x512 | 100K | 47.64 | xxx | xxx | [config](configs/swin/upernet_swin_small_patch4_window7_512x512_160k_ade20k.py) | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.1/upernet_swin_small_patch4_window7_512x512.log.json)
+| MACT-UNet | 512x512 | 100K | 48.13 | xxx | xxx | [config](configs/swin/upernet_swin_base_patch4_window7_512x512_160k_ade20k.py) | [github](https://github.com/SwinTransformer/storage/releases/download/v1.0.1/upernet_swin_base_patch4_window7_512x512.log.json)
+
+
 ## Inference on huge remote sensing image
 
 <div>
