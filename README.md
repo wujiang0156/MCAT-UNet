@@ -15,7 +15,7 @@ where the boundaries remain accurate and smooth.
 
 ## Pretrained Weights of Backbones
 
-[Google Drive](https://download.openmmlab.com/mmsegmentation/v0.5/pretrain/segnext/mscan_s_20230227-f33ccdf2.pth)
+[mmlab_pretrain](https://download.openmmlab.com/mmsegmentation/v0.5/pretrain/segnext/mscan_s_20230227-f33ccdf2.pth)
 
 ## Data Preprocessing
 
