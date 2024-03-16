@@ -43,7 +43,7 @@ You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs
 | LoveDa | 512x512 | 100K | 53.58 |  23.2 | 18.5 | [config](https://github.com/wujiang0156/MCAT-UNet/blob/main/config/segnext_csheadunet-s_1xb4-adamw-100k_loveda-512x512.py) | [github](https://github.com/wujiang0156/MCAT-UNet/releases/download/LOG/20231226_030251.log)
 
 
-## Inference on huge remote sensing image
+## Inference on High-resolution remote sensing image
 
 <div>
 <img src="fig 6.jpg" width="100%"/>
