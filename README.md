@@ -1,12 +1,6 @@
 ## Introduction
 
-**MCAT-UNet** is an open-source semantic segmentation model based on mmsegmetation, 
-which mainly focuses on developing advanced remote sensing image segmentation.
-
-The proposed MCAT-UNet can extract local representations and capture long-range spatial dependencies to segment 
-geographic objects more efficiently in complex scenarios with low computational complexity. In particular,
-MCAT-UNet achieves more complete predictions for large-scale varied objects and small discrete multiscale objects, 
-where the boundaries remain accurate and smooth. 
+Remote sensing change detection (RSCD), which aims to identify differences between bitemporal images, has made great progress through the application of deep learning methods. Convolutional neural networks (CNNs) and transformers are widely used in remote sensing image change detection and have achieved promising results. However, current models predominantly focus on visual representation learning while neglecting the potential of multimodal learning methods. Consequently, this leads to issues such as inaccurate identification of nonsemantic changes, incomplete boundary extraction due to the degradation of local feature details, and the loss of small targets. Recently, a novel method for efficiently learning from natural language supervision, known as contrastive language image pretraining (CLIP), has been proposed. This innovative paradigm demonstrates impressive performance on downstream tasks. In this work, we propose a new change detection framework, CLIPFormer, which leverages pretraining knowledge from CLIP and the Swin transformer. Specifically, we reconstruct the original CLIP architecture using the Swin transformer to extract bitemporal features and introduce a novel difference feature enhancement module to capture detailed semantic change features. Additionally, in the decoding stage, we propose a vision language guided transformer (VLGT) multimodal decoder by integrating cross-attention with the cross-shaped window transformer (CSWT) module to enhance the image semantic representation. Extensive experiments demonstrate that our model outperforms other state-of-the-art (SOTA) methods, with IoU values of 85.60%, 76.81%, 89.55%, 94.51%, and 71.77% on the LEVIR-CD, LEVIR-CD+, WHUCD, CDD, and SYSU-CD datasets, respectively. The source code for this work is available at https://github.com/wujiang0156/CLIPFormer
  
 ## Install
 - First, you need to download mmsegmentation and install it on your server.
