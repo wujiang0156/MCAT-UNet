@@ -1,5 +1,8 @@
 ## MCAT-UNet
 
+MCAT-UNet: Convolutional and Cross-shaped Window Attention Enhanced UNet for Efficient High-resolution Remote Sensing Image Segmentation
+
+## Introduction
 **MCAT-UNet** is an open-source semantic segmentation model based on mmsegmetation, 
 which mainly focuses on developing advanced remote sensing image segmentation.
 Article download link https://ieeexplore.ieee.org/abstract/document/10521698
@@ -8,6 +11,7 @@ The proposed MCAT-UNet can extract local representations and capture long-range 
 geographic objects more efficiently in complex scenarios with low computational complexity. In particular,
 MCAT-UNet achieves more complete predictions for large-scale varied objects and small discrete multiscale objects, 
 where the boundaries remain accurate and smooth. 
+
 ## Install
 - First, you need to download mmsegmentation and install it on your server.
 - Second, place backbone.py and csheadunet.py in the corresponding directory of mmsegmentation.
