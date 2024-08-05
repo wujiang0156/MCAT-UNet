@@ -56,6 +56,17 @@ You can refer to **mmsegmentation document** (https://mmsegmentation.readthedocs
 <img src="fig 9.jpg" width="100%"/>
 </div>
 
+## Cite MCAT-UNet
+If you find this work useful or interesting, please consider citing the following BibTeX entry.
+
+@article{wang2024mcat,
+  title={MCAT-UNet: Convolutional and Cross-shaped Window Attention Enhanced UNet for Efficient High-resolution Remote Sensing Image Segmentation},
+  author={Wang, Tao and Xu, Chao and Liu, Bin and Yang, Guang and Zhang, Erlei and Niu, Dangdang and Zhang, Hongming},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
+}
+
 ## Acknowledgement
 
  Many thanks the following projects's contributions to **MACT-UNet**.
